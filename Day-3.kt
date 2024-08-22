@@ -39,7 +39,7 @@ fun main() {
     var a = "bye"
     var b: String = a as String
     println("Unsafe Casting Result: $b")
-    val c: Int = a as? Int
+    val c: Int? = a as? Int
     println("safe Casting Result: $c")
 
 }
